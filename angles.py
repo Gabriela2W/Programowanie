@@ -42,7 +42,7 @@ def decimal_deg2rad(decimal_deg):
     decimal_deg(1.5707963267948968) --> 90.0
     """
 
-    return decimal_deg * (90.0/1.5707963267948968)
+    return decimal_deg * (1.5707963267948968/90)
 
 
 def rad2decimal_deg(rad):
@@ -50,7 +50,7 @@ def rad2decimal_deg(rad):
     rad2decimal_deg(1.5707963267948968) --> 90.0
     """
 
-    return rad2decimal_deg * (90.0/1.5707963267948968)
+    return rad * (90.0/1.5707963267948968)
 
 
 # ======================== for 4
