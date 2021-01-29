@@ -15,7 +15,7 @@ def test_deg2grad():
     assert deg2grad(180) == 200
     assert deg2grad(225) == 250
     assert deg2grad(270) == 300
-    assert deg2grad(315) == 340
+    assert deg2grad(315) == 350
     assert deg2grad(360) == 400
 
 
